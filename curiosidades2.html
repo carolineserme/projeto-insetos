@@ -3,15 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BioInsetos - Curiosidades Autorais</title>
+    <title>BioInsetos - Minha Coleção Fotográfica</title>
     <link rel="stylesheet" href="style.css.css">
 </head>
 <body>
-
-    <!-- Link obrigatório de acessibilidade -->
     <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
-
-    <!-- Menu Superior com Flexbox -->
     <header>
         <nav class="nav-container">
             <a href="index.html" class="nav-item">Home</a>
@@ -19,135 +15,18 @@
             <a href="curiosidades2.html" class="nav-item active">Curiosidades c/ Fotos autorais</a>
         </nav>
     </header>
-
-    <!-- Conteúdo principal com Galeria Autoral e Fichas -->
     <main id="conteudo-principal">
         <h1 class="page-title">Minha Coleção Fotográfica & Curiosidades</h1>
-        <p class="page-subtitle">Navegue pelas minhas fotos autorais abaixo e veja as fichas completas de todas as espécies logo a seguir!</p>
-
-        <!-- Grade de imagens (Galeria de Fotos Autorais) -->
-        <div class="gallery-grid" style="margin-bottom: 60px;">
-            <a href="#autoral-1">
-                <div class="gallery-card">
-                    <img src="imagens/autoral1.jpg" alt="Abelha Nativa polinizando" class="gallery-img">
-                    <span class="card-caption">Abelha Nativa</span>
-                </div>
-            </a>
-            <a href="#autoral-2">
-                <div class="gallery-card">
-                    <img src="imagens/autoral2.jpg" alt="Joaninha Comum em uma folha verde" class="gallery-img">
-                    <span class="card-caption">Joaninha Comum</span>
-                </div>
-            </a>
-            <a href="#autoral-3">
-                <div class="gallery-card">
-                    <img src="imagens/autoral3.jpg" alt="Libélula Azul perto da água" class="gallery-img">
-                    <span class="card-caption">Libélula Azul</span>
-                </div>
-            </a>
-            <a href="#autoral-4">
-                <div class="gallery-card">
-                    <img src="imagens/autoral4.jpg" alt="Esperança Verde camuflado" class="gallery-img">
-                    <span class="card-caption">Esperança Verde</span>
-                </div>
-            </a>
-            <a href="#autoral-5">
-                <div class="gallery-card">
-                    <img src="imagens/autoral5.jpg" alt="Lagarta Fogo em um tronco" class="gallery-img">
-                    <span class="card-caption">Lagarta Fogo</span>
-                </div>
-            </a>
+        <p style="text-align: center; color: #666; margin-bottom: 30px;">Navegue pelas minhas fotos autorais abaixo e veja as fichas completas de cada espécie!</p>
+        
+        <div class="gallery-grid">
+            <a href="besouro-serra-pau.html"><div class="gallery-card"><img src="imagens/autoral1.jpg" class="gallery-img"><span>Besouro-Serra-Pau</span></div></a>
+            <a href="bicho-pau.html"><div class="gallery-card"><img src="imagens/autoral2.jpg" class="gallery-img"><span>Bicho-Pau</span></div></a>
+            <a href="vespa-ichneumonidea.html"><div class="gallery-card"><img src="imagens/autoral3.jpg" class="gallery-img"><span>Vespa-ichneumonídea</span></div></a>
+            <a href="mosca-taquinidea.html"><div class="gallery-card"><img src="imagens/autoral4.jpg" class="gallery-img"><span>Mosca-taquinídea</span></div></a>
+            <a href="aranha-saltadora.html"><div class="gallery-card"><img src="imagens/autoral5.jpg" class="gallery-img"><span>Aranha-saltadora</span></div></a>
         </div>
-
-        <h2 style="color:#2e4a3f; margin-bottom: 20px; border-bottom: 2px solid #2e4a3f; padding-bottom: 10px;">Fichas e Curiosidades Detalhadas</h2>
-
-        <!-- SEÇÕES DOS INSETOS DO MUNDO -->
-        <section id="mundo-1" class="info-section">
-            <h3>Besouro Sagrado</h3>
-            <div class="info-container">
-                <p>O besouro sagrado desempenha papéis ecológicos fundamentais na reciclagem de nutrientes do solo. Suas cores vibrantes ou adaptações únicas os tornam um dos grupos mais diversos do planeta.</p>
-                <img src="imagens/mundo1.jpg" alt="Ficha do Besouro" class="info-img">
-            </div>
-        </section>
-
-        <section id="mundo-2" class="info-section">
-            <h3>Louva-a-deus Orquídea</h3>
-            <div class="info-container">
-                <p>Este incrível predador se camufla perfeitamente imitando pétalas de flores para enganar suas presas. É um verdadeiro mestre do disfarce na natureza.</p>
-                <img src="imagens/mundo2.jpg" alt="Ficha do Louva-a-deus" class="info-img">
-            </div>
-        </section>
-
-        <section id="mundo-3" class="info-section">
-            <h3>Borboleta Asa-de-Vidro</h3>
-            <div class="info-container">
-                <p>As asas desse inseto são quase totalmente transparentes porque os tecidos não possuem as escamas coloridas comuns em outras borboletas, agindo como uma capa de invisibilidade contra pássaros.</p>
-                <img src="imagens/mundo3.jpg" alt="Ficha da Borboleta" class="info-img">
-            </div>
-        </section>
-
-        <section id="mundo-4" class="info-section">
-            <h3>Cigarra Colorida</h3>
-            <div class="info-container">
-                <p>Conhecidas pelo seu canto característico no verão, algumas espécies tropicais exibem padrões de cores impressionantes que servem para alertar predadores sobre sua toxicidade.</p>
-                <img src="imagens/mundo4.jpg" alt="Ficha da Cigarra" class="info-img">
-            </div>
-        </section>
-
-        <section id="mundo-5" class="info-section">
-            <h3>Formiga Bala</h3>
-            <div class="info-container">
-                <p>Possui uma das picadas mais dolorosas do reino animal. Habita florestas tropicais e vive em colônias altamente organizadas na base de grandes árvores.</p>
-                <img src="imagens/mundo5.jpg" alt="Ficha da Formiga Bala" class="info-img">
-            </div>
-        </section>
-
-        <!-- SEÇÕES DOS INSETOS AUTORAIS -->
-        <section id="autoral-1" class="info-section">
-            <h3>Abelha Nativa (Foto Autoral)</h3>
-            <div class="info-container">
-                <p>Fotografada no meu jardim. As abelhas nativas sem ferrão são essenciais para a polinização da flora local e são extremamente dóceis.</p>
-                <img src="imagens/autoral1.jpg" alt="Detalhe autoral da abelha" class="info-img">
-            </div>
-        </section>
-
-        <section id="autoral-2" class="info-section">
-            <h3>Joaninha Comum (Foto Autoral)</h3>
-            <div class="info-container">
-                <p>Encontrada sobre uma folha de roseira. Joaninhas são predadoras naturais de pulgões, sendo excelentes para o controle biológico de pragas em jardins.</p>
-                <img src="imagens/autoral2.jpg" alt="Detalhe autoral da joaninha" class="info-img">
-            </div>
-        </section>
-
-        <section id="autoral-3" class="info-section">
-            <h3>Libélula Azul (Foto Autoral)</h3>
-            <div class="info-container">
-                <p>Um registro rápido perto de um lago. As libélulas agem como verdadeiros helicópteros na natureza, caçando mosquitos em pleno voo com precisão cirúrgica.</p>
-                <img src="imagens/autoral3.jpg" alt="Detalhe autoral da libélula" class="info-img">
-            </div>
-        </section>
-
-        <section id="autoral-4" class="info-section">
-            <h3>Esperança Verde (Foto Autoral)</h3>
-            <div class="info-container">
-                <p>Este inseto consegue se camuflar perfeitamente fingindo ser uma folha verde, inclusive com marcas no corpo que imitam com perfeição as nervuras das plantas.</p>
-                <img src="imagens/autoral4.jpg" alt="Detalhe autoral do esperança" class="info-img">
-            </div>
-        </section>
-
-        <section id="autoral-5" class="info-section">
-            <h3>Lagarta Fogo (Foto Autoral)</h3>
-            <div class="info-container">
-                <p>Observada em um tronco de árvore. Suas cerdas pontiagudas servem como mecanismo agressivo de defesa e causam queimaduras sérias ao menor toque.</p>
-                <img src="imagens/autoral5.jpg" alt="Detalhe autoral da lagarta" class="info-img">
-            </div>
-        </section>
     </main>
-
-    <!-- Rodapé padrão -->
-    <footer>
-        <p>BY: Caroline Serme</p>
-    </footer>
-
+    <footer><p>BY: Caroline Serme</p></footer>
 </body>
 </html>
